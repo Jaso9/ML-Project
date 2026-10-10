@@ -5,7 +5,7 @@
 
 ## Подключение в Ubuntu / WSL2
 
-Распакуйте содержимое архива в ~/projects/ML-Project. Если .gitignore уже
+Распакуйте содержимое архива в ~/projects/ML-Project (или в другую директорию с вашими проектами, это просто пример). Если .gitignore уже
 существует, объедините правила, сохранив предыдущие.
 
 В окружении проекта выполните:
@@ -18,7 +18,7 @@ python -m ipykernel install --sys-prefix --name flight-delay --display-name "Fli
 python scripts/run_notebook.py check-data
 ```
 
-CSV должен находиться в data/flights.csv. Kernel flight-delay регистрируется
+CSV должен находиться в data/flights.csv (в проекте должна быть директория для хранения датасетов, как пример data). Kernel flight-delay регистрируется
 внутри окружения проекта, чтобы ноутбук использовал именно его библиотеки.
 
 В другом терминале запустите Airflow:
