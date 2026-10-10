@@ -50,9 +50,9 @@ uv pip install "apache-airflow==3.3.2" apache-airflow-providers-standard --const
 ## Результаты
 
 Папка outputs/<хеш ID запуска>/ содержит:
-- run_id.txt — исходный ID запуска Airflow;
-- executed.ipynb — выполненную копию ноутбука, включая ошибку при сбое;
-- metrics.csv — итоговую таблицу из раздела Final test при успешном выполнении.
+- run_id.txt – исходный ID запуска Airflow;
+- executed.ipynb – выполненную копию ноутбука, включая ошибку при сбое;
+- metrics.csv – итоговую таблицу из раздела Final test при успешном выполнении.
 
 Путь к папке и номера выполняемых ячеек видны в логах run_notebook.
 
